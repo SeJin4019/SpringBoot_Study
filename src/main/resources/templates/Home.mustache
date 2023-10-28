@@ -1,0 +1,24 @@
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/home.css">
+
+</head>
+<body class="Home">
+{{>layouts/HomeHeader}}
+<div id="container">
+<div class="recommendation-Box">
+<Form>
+    <div class="home-form">
+        <label class="form-label">찬양 제목</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="home-form">
+        <label for="exampleFormControlTextarea1" class="form-label">찬양 추천 이유</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</Form>
+</div>
+</div>
+{{>layouts/HomeFooter}}
+</body>
